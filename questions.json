@@ -17,7 +17,7 @@
         "answers": [
             {
                 "label": "Yes",
-                "nextQId": "2.1"
+                "nextQId": ""
             },
             {
                 "label": "No",
