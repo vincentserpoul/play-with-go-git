@@ -3,7 +3,7 @@
         {
             "id": "0",
             "label": "",
-            "description": "Welcme to Manulife Declaration e-Assistant! \n\nThis tool is designed to help you determine your entity classification for the purpose of making a CRS or FATCA declaration to Manulife. Click \"Start\" to view the disclaimer and start the process.",
+            "description": "Welcome to Manulife Declaration e-Assistant! \n\nThis tool is designed to help you determine your entity classification for the purpose of making a CRS or FATCA declaration to Manulife. Click \"Start\" to view the disclaimer and start the process.",
             "showPreviousButton": false,
             "answers": [
                 {
