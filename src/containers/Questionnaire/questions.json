@@ -616,5 +616,623 @@
                 }
             ]
         }
+    ],
+    "zh-Hant-HK": [
+        {
+            "id": "0",
+            "label": "",
+            "description": "歡迎來到宏利Declaration e-Assistant！ \n\n此工具旨在幫助您確定您的實體類別，以便向宏利作出共同申報準則（CRS）或美國海外帳戶稅收遵從法（FATCA）聲明。點擊「開始」以查看免責聲明，然後開始此過程。",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "開始",
+                    "nextQId": "1"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "label": "",
+            "description": "免責聲明\n\n本網站的資料僅供參考。宏利不會保留您提供的任何資料，包括透過使用cookies提供的資料。宏利不保證所有資料均準確無誤。如您因依賴本網站中的資料或內容而招致損失或損害，宏利在任何情況下均不會對此負責。宏利不提供稅務、法律或會計建議，您應酌情諮詢自身的獨立稅務、法律及會計顧問。",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "同意",
+                    "nextQId": "2"
+                },
+                {
+                    "label": "不同意",
+                    "nextQId": "4"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "label": "您是否在美國註冊成立？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.1"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1",
+            "label": "您是銀行、保險公司或證券公司等受監管金融機構嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2000000000000002"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2000000000000002",
+            "label": "您是否主要管理金融資產（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2999999999999998"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.1",
+            "label": "您是否由金融機構管理？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.2",
+            "label": "您是否管理其他人的資金或資產？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.3",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W9表格\nCRS實體稅務居民自我證明表格，及\n每名控制人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2999999999999998",
+            "label": "您是上市公司或上市公司的附屬公司嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.3.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.3.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 主動非財務實體 - 上市公司或其附屬公司\n\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4",
+            "label": "您是否主要向客戶銷售產品及提供服務（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.4.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.4.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 主動非財務實體 - 其他\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 被動非財務實體\n\n請向宏利提供以下文件：\n美國國稅局W9表格\nCRS實體稅務居民自我證明表格，及\n每名控制人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.1",
+            "label": "您是一項信託／法律安排嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "4.0999999999999996"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2",
+            "label": "您是銀行、保險公司或證券公司等受監管金融機構嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1",
+            "label": "您是否擁有註冊全球中介機構識別號碼（GIIN）？",
+            "description": "GIIN - 美國國稅局向非美國金融機構分配的一個號碼，即承諾遵守FATCA及美國法規或當地政府間的協議（IGA）。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.2.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務實體\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國財務機構／所有者已記錄在案的外國財務機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3",
+            "label": "您是否主要管理金融資產（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.4"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1",
+            "label": "您是否擁有註冊全球中介機構識別號碼（GIIN）或由擁有GIIN的金融機構管理？",
+            "description": "GIIN - 美國國稅局向非美國金融機構分配的一個號碼，即承諾遵守FATCA及美國法規或當地政府間的協議（IGA）。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1",
+            "label": "您是否位於共同申報準則（CRS）管轄區內？",
+            "description": "有關CRS管轄區，請參考以下鏈接\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.1.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務機構\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格\nCRS實體稅務居民自我證明表格 \n該實體每名控制人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2",
+            "label": "您有否管理其他人的資金或資產？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1",
+            "label": "您是否位於共同申報準則（CRS）管轄區內？",
+            "description": "有關CRS管轄區，請參考以下鏈接\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.2.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國金融機構／所有者已記錄在案的外國金融機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國財務機構／所有者已記錄在案的外國財務機構\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格\nCRS實體稅務居民自我證明表格\n該實體每名控制人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.4",
+            "label": "您是上市公司或上市公司的附屬公司嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.4.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.4.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 豁免實益擁有人／上市非財務外國實體\nCRS - 積極非財務實體 - 上市公司或其附屬公司\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格，及\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5",
+            "label": "您是否主要向客戶銷售產品及提供服務（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.5.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.5.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 主動非財務外國實體\nCRS - 主動非財務實體 - 其他\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格\nCRS實體稅務居民自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 被動非財務外國實體\nCRS - 被動非財務實體\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格\nCRS實體稅務居民自我證明表格\n該實體每名控制人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "label": "",
+            "description": "感謝您使用Declaration e-Assistant。 \n\n如果您對自身的納稅身份有任何疑問，請諮詢您的專業顧問。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "0"
+                }
+            ]
+        },
+        {
+            "id": "4.0999999999999996",
+            "label": "",
+            "description": "感謝您使用Declaration e-Assistant。 \n\n看起來您的情況可能很複雜。請諮詢專業稅務顧問，以幫助您作出聲明。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "0"
+                }
+            ]
+        }
     ]
 }
