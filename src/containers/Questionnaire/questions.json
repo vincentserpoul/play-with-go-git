@@ -15,7 +15,7 @@
         {
             "id": "1",
             "label": "",
-            "description": "Disclaimer\n\nThe information in this website is for general reference only. Manulife will not retain any of the information that you provide, including cookies. Manulife does not warrant that any information is accurate. Under no circumstances will Manulife be responsible for any loss or damage caused by your reliance on any information or content. Manulife does not provide tax, legal or accounting advice and you should consult your own independent tax, legal and accounting advisors as appropriate.",
+            "description": "Disclaimer\n\nThe information in this website is for general reference only. Manulife will not retain any of the information that you provide, including through the use of cookies. Manulife does not warrant that any information is accurate. Under no circumstances will Manulife be responsible for any loss or damage caused by your reliance on any information or content. Manulife does not provide tax, legal or accounting advice and you should consult your own independent tax, legal and accounting advisors as appropriate.",
             "showPreviousButton": false,
             "answers": [
                 {
@@ -612,6 +612,1242 @@
             "answers": [
                 {
                     "label": "Done",
+                    "nextQId": "0"
+                }
+            ]
+        }
+    ],
+    "id_ID": [
+        {
+            "id": "0",
+            "label": "",
+            "description": "Selamat Datang di Manulife Declaration e-Assistant! \n\nAlat ini dirancang untuk membantu Anda menentukan klasifikasi entitas/badan Anda untuk tujuan melengkapi deklarasi CRS atau FATCA untuk Manulife. Klik \"Mulai\" untuk melihat Pernyataan Penolakan dan memulai proses.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Mulai",
+                    "nextQId": "1"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "label": "",
+            "description": "Pernyataan Penolakan\n\nInformasi di situs web ini hanya untuk referensi umum. Manulife tidak akan menyimpan segala bentuk informasi yang Anda berikan, termasuk melalui penggunaan cookies. Manulife tidak menjamin semua informasi akurat. Dalam kondisi apa pun, Manulife tidak akan bertanggung jawab atas kehilangan atau kerugian yang disebabkan oleh keyakinan Anda pada semua informasi dan konten. Manulife tidak memberikan nasihat pajak, hukum, atau akuntansi dan Anda harus berkonsultasi sendiri ke penasihat pajak, hukum, dan akuntansi independen sebagaimana yang diperlukan.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Setuju",
+                    "nextQId": "2"
+                },
+                {
+                    "label": "Tidak Setuju",
+                    "nextQId": "4"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "label": "Apakah Anda berbentuk badan hukum di Amerika Serikat (A.S.)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.1"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1",
+            "label": "Apakah Anda institusi keuangan yang diatur dalam perundang-undangan seperti bank, perusahaan asuransi, atau perusahaan sekuritas?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2000000000000002"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Institusi Keuangan \n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2000000000000002",
+            "label": "Apakah Anda secara umum mengelola aset keuangan (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2999999999999998"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.1",
+            "label": "Apakah Anda dikelola oleh institusi keuangan?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.2",
+            "label": "Apakah Anda mengelola uang atau aset orang lain?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.3",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas Investasi yang Dikelola secara Profesional, penduduk pajak dalam Yurisdiksi yang Tidak Berpartisipasi berdasarkan CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9\nsertifikasi diri CRS, dan\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) untuk masing-masing pihak pengendali\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2999999999999998",
+            "label": "Apakah Anda korporasi yang diperdagangkan secara publik atau afiliasi korporasi yang diperdagangkan secara publik?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.3.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.3.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Aktif - korporasi yang terdaftar secara publik atau afiliasinya\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4",
+            "label": "Apakah Anda secara umum menjual produk dan layanan kepada nasabah (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.4.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.4.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Aktif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS \n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Pasif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9\nsertifikasi diri CRS, dan\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali\n\nBuka tautan berikut untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.1",
+            "label": "Apakah Anda sebuah Trust atau Perikatan Legal Lainnya?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "4.0999999999999996"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2",
+            "label": "Apakah Anda institusi keuangan yang diatur dalam perundang-undangan seperti bank, perusahaan asuransi, atau perusahaan sekuritas?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1",
+            "label": "Apakah Anda memiliki  Global Intermediary Identification Number (GIIN)?",
+            "description": "GIIN - Nomor yang dikeluarkan oleh U.S. IRS untuk Institusi Keuangan non-AS yang berkomitmen terhadap kepatuhan FATCA sesuai dengan Undang-undang AS atau Perjanjian Antarpemerintah (IGA).",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.2.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan berikut untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Tidak Berpartisipasi/Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3",
+            "label": "Apakah Anda secara umum mengelola aset keuangan (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.4"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1",
+            "label": "Apakah Anda memiliki  Global Intermediary Identification Number (GIIN) atau apakah Anda dikelola oleh Institusi Keuangan dengan GIIN?",
+            "description": "GIIN - Nomor yang dikeluarkan oleh U.S. IRS untuk Lembaga Keuangan non-AS yang berkomitmen terhadap kepatuhan FATCA sesuai dengan Undang-undang AS atau Perjanjian Antarpemerintah (IGA).",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1",
+            "label": "Apakah Anda berlokasi di yurisdiksi Common Reporting Standard (CRS)?",
+            "description": "Buka tautan di bawah untuk yurisdiksi CRS\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.1.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Entitas/Badan Investasi yang Dikelola secara Profesional, wajib pajak dalam Yurisdiksi yang Tidak Berpartisipasi berdasarkan CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2",
+            "label": "Apakah Anda mengelola uang atau aset orang lain?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1",
+            "label": "Apakah Anda berlokasi di yurisdiksi Common Reporting Standard (CRS)?",
+            "description": "Buka tautan di bawah untuk yurisdiksi CRS\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.2.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Tidak Berpartisipasi /Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan yang Tidak Berpartisipasi /Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Entitas/Badan Investasi yang Dikelola secara Profesional, wajib pajak dalam Yurisdiksi yang Tidak Berpartisipasi di bawah CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.4",
+            "label": "Apakah Anda korporasi yang diperdagangkan secara publik atau afiliasi korporasi yang diperdagangkan secara publik?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.4.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.4.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Pemilik Manfaat Perusahaan Dikecualikan atau Entitas/Badan Asing Non-keuangan yang diperdagangkan secara Publik\nCRS - Entitas/Badan Non-keuangan Aktif - korporasi yang didaftarkan secara publik\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E  / Formulir Sertifikasi Diri Korporasi yang Disederhanakan, dan\nsertifikasi diri CRS \n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5",
+            "label": "Apakah Anda secara umum menjual produk dan layanan kepada nasabah (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.5.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.5.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Entitas/Badan Asing Non-keuangan Aktif\nCRS - Entitas/Badan Non-keuangan Aktif - Lainnya\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E / Formulir Sertifikasi Diri Korporasi yang Disederhanakan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Entitas/Badan Asing Non-keuangan Pasif\nCRS - Entitas/Badan Non-Keuangan Pasif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E / Formulir Sertifikasi Diri Korporasi yang Disederhanakan\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "label": "",
+            "description": "Terima kasih telah menggunakan Manulife Declaration e-Assistant. \n\nJika Anda memiliki pertanyaan apa pun mengenai status pajak, konsultasikan ke penasihat profesional.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "0"
+                }
+            ]
+        },
+        {
+            "id": "4.0999999999999996",
+            "label": "",
+            "description": "Terima kasih telah menggunakan Manulife Declaration e-Assistant. \n\nTampaknya situasi Anda mungkin rumit. Silakan konsultasikan ke penasihat pajak profesional untuk membantu Anda melengkapi deklarasi.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "0"
+                }
+            ]
+        }
+    ],
+    "zh_HK": [
+        {
+            "id": "0",
+            "label": "",
+            "description": "歡迎來到宏利Declaration e-Assistant！ \n\n此工具旨在幫助您確定您的實體類別，以便向宏利作出共同申報準則（CRS）或美國海外帳戶稅收遵從法（FATCA）聲明。點擊「開始」以查看免責聲明，然後開始此過程。",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "開始",
+                    "nextQId": "1"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "label": "",
+            "description": "免責聲明\n\n本網站的資料僅供參考。宏利將不會保留您提供的任何資料，包括透過使用cookies提供的資料。宏利並不保證任何資料均準確無誤。如您因依賴本網站中的資料或內容而招致損失或損害，在任何情況下宏利均不會對此負責。宏利不會提供稅務、法律或會計意見，如有需要您應尋求獨立稅務、法律及會計顧問的意見。",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "同意",
+                    "nextQId": "2"
+                },
+                {
+                    "label": "不同意",
+                    "nextQId": "4"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "label": "您是否在美國註冊成立？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.1"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1",
+            "label": "您是銀行、保險公司或證券公司等受監管金融機構嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2000000000000002"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2000000000000002",
+            "label": "您是否主要管理金融資產（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2999999999999998"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.1",
+            "label": "您是否由金融機構管理？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.2.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.2",
+            "label": "您是否管理其他人的資金或資產？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.3",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W9表格\nCRS實體稅務居民身份自我證明表格，及\n每名控權人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2999999999999998",
+            "label": "您是上市公司或上市公司的附屬公司嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.3.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.3.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 主動非財務實體 - 上市公司或其附屬公司\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4",
+            "label": "您是否主要向客戶銷售產品及提供服務（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "2.4.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.4.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 主動非財務實體 - 其他\n\n請向宏利提供以下文件：\n美國國稅局W9表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nCRS - 被動非財務實體\n\n請向宏利提供以下文件：\n美國國稅局W9表格\nCRS實體稅務居民自我證明表格，及\n每名控權人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.1",
+            "label": "您是一項信託／法律安排嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "4.0999999999999996"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2",
+            "label": "您是銀行、保險公司或證券公司等受監管金融機構嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1",
+            "label": "您是否擁有註冊全球中介機構識別號碼（GIIN）？",
+            "description": "GIIN - 美國國稅局向非美國金融機構分配的一個號碼，即承諾遵守FATCA及美國法規或當地政府間的協議（IGA）。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.2.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務實體\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國財務機構／所有者已記錄在案的外國財務機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3",
+            "label": "您是否主要管理金融資產（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.4"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1",
+            "label": "您是否擁有註冊全球中介機構識別號碼（GIIN）或由擁有GIIN的金融機構管理？",
+            "description": "GIIN - 美國國稅局向非美國金融機構分配的一個號碼，即承諾遵守FATCA及美國法規或當地政府間的協議（IGA）。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1",
+            "label": "您是否位於共同申報準則（CRS）管轄區內？",
+            "description": "有關CRS管轄區，請參考以下鏈接\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.1.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.1.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 參與外國財務機構\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格\nCRS實體稅務居民身份自我證明表格 \n該實體每名控權人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2",
+            "label": "您有否管理其他人的資金或資產？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.2.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1",
+            "label": "您是否位於共同申報準則（CRS）管轄區內？",
+            "description": "有關CRS管轄區，請參考以下鏈接\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.3.2.1.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.3.2.1.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國金融機構／所有者已記錄在案的外國金融機構\nCRS - 財務機構\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 非參與外國財務機構／所有者已記錄在案的外國財務機構\nCRS - 專業管理投資實體，CRS範疇下非參與管轄區的稅務居民\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格\nCRS實體稅務居民身份自我證明表格\n該實體每名控權人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.4",
+            "label": "您是上市公司或上市公司的附屬公司嗎？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.4.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.4.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 豁免實益擁有人／上市非財務外國實體\nCRS - 主動非財務實體 - 上市公司或其附屬公司\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格，及\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5",
+            "label": "您是否主要向客戶銷售產品及提供服務（超過收入的50％）？",
+            "description": "",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "是",
+                    "nextQId": "3.5.1"
+                },
+                {
+                    "label": "否",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "我不知道",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.5.1",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 主動非財務外國實體\nCRS - 主動非財務實體 - 其他\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格\nCRS實體稅務居民身份自我證明表格\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5.2",
+            "label": "",
+            "description": "僅基於您提供的資料，您的實體類別似乎是： \n\nFATCA - 被動非財務外國實體\nCRS - 被動非財務實體\n\n請向宏利提供以下文件：\n美國國稅局W-8BEN-E表格／簡化的公司表格\nCRS實體稅務居民身份自我證明表格\n該實體每名控權人的CRS自我證明及美國國稅局W9/W8表格（如適用）\n\n如需美國國稅局表格，請按以下鏈接： \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "打印",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "label": "",
+            "description": "感謝您使用Declaration e-Assistant。 \n\n如果您對自身的納稅身份有任何疑問，請諮詢您的專業顧問。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
+                    "nextQId": "0"
+                }
+            ]
+        },
+        {
+            "id": "4.0999999999999996",
+            "label": "",
+            "description": "感謝您使用Declaration e-Assistant。 \n\n看起來您的情況可能很複雜。請諮詢專業稅務顧問，以幫助您作出聲明。",
+            "showPreviousButton": true,
+            "answers": [
+                {
+                    "label": "完成",
                     "nextQId": "0"
                 }
             ]
