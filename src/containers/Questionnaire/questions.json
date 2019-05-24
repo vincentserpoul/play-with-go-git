@@ -617,6 +617,624 @@
             ]
         }
     ],
+    "id_ID": [
+        {
+            "id": "0",
+            "label": "",
+            "description": "Selamat Datang di Manulife Declaration e-Assistant! \n\nAlat ini dirancang untuk membantu Anda menentukan klasifikasi entitas/badan Anda untuk tujuan melengkapi deklarasi CRS atau FATCA untuk Manulife. Klik \"Mulai\" untuk melihat Pernyataan Penolakan dan memulai proses.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Mulai",
+                    "nextQId": "1"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "label": "",
+            "description": "Pernyataan Penolakan\n\nInformasi di situs web ini hanya untuk referensi umum. Manulife tidak akan menyimpan segala bentuk informasi yang Anda berikan, termasuk melalui penggunaan cookies. Manulife tidak menjamin semua informasi akurat. Dalam kondisi apa pun, Manulife tidak akan bertanggung jawab atas kehilangan atau kerugian yang disebabkan oleh keyakinan Anda pada semua informasi dan konten. Manulife tidak memberikan nasihat pajak, hukum, atau akuntansi dan Anda harus berkonsultasi sendiri ke penasihat pajak, hukum, dan akuntansi independen sebagaimana yang diperlukan.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Setuju",
+                    "nextQId": "2"
+                },
+                {
+                    "label": "Tidak Setuju",
+                    "nextQId": "4"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "label": "Apakah Anda berbentuk badan hukum di Amerika Serikat (A.S.)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.1"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1",
+            "label": "Apakah Anda institusi keuangan yang diatur dalam perundang-undangan seperti bank, perusahaan asuransi, atau perusahaan sekuritas?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2000000000000002"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Institusi Keuangan \n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2000000000000002",
+            "label": "Apakah Anda secara umum mengelola aset keuangan (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2999999999999998"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.1",
+            "label": "Apakah Anda dikelola oleh institusi keuangan?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.2.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.2",
+            "label": "Apakah Anda mengelola uang atau aset orang lain?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.2.3"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.2.3",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas Investasi yang Dikelola secara Profesional, penduduk pajak dalam Yurisdiksi yang Tidak Berpartisipasi berdasarkan CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9\nsertifikasi diri CRS, dan\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) untuk masing-masing pihak pengendali\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.2999999999999998",
+            "label": "Apakah Anda korporasi yang diperdagangkan secara publik atau afiliasi korporasi yang diperdagangkan secara publik?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.3.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.3.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Aktif - korporasi yang terdaftar secara publik atau afiliasinya\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4",
+            "label": "Apakah Anda secara umum menjual produk dan layanan kepada nasabah (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "2.4.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "2.4.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "2.4.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Aktif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9, dan\nsertifikasi diri CRS \n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "2.4.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nCRS - Entitas/Badan Non-keuangan Pasif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W9\nsertifikasi diri CRS, dan\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali\n\nBuka tautan berikut untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.1",
+            "label": "Apakah Anda sebuah Trust atau Perikatan Legal Lainnya?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "4.0999999999999996"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2",
+            "label": "Apakah Anda institusi keuangan yang diatur dalam perundang-undangan seperti bank, perusahaan asuransi, atau perusahaan sekuritas?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1",
+            "label": "Apakah Anda memiliki  Global Intermediary Identification Number (GIIN)?",
+            "description": "GIIN - Nomor yang dikeluarkan oleh U.S. IRS untuk Institusi Keuangan non-AS yang berkomitmen terhadap kepatuhan FATCA sesuai dengan Undang-undang AS atau Perjanjian Antarpemerintah (IGA).",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.2.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan berikut untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.2.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Tidak Berpartisipasi/Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3",
+            "label": "Apakah Anda secara umum mengelola aset keuangan (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.4"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1",
+            "label": "Apakah Anda memiliki  Global Intermediary Identification Number (GIIN) atau apakah Anda dikelola oleh Institusi Keuangan dengan GIIN?",
+            "description": "GIIN - Nomor yang dikeluarkan oleh U.S. IRS untuk Lembaga Keuangan non-AS yang berkomitmen terhadap kepatuhan FATCA sesuai dengan Undang-undang AS atau Perjanjian Antarpemerintah (IGA).",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1",
+            "label": "Apakah Anda berlokasi di yurisdiksi Common Reporting Standard (CRS)?",
+            "description": "Buka tautan di bawah untuk yurisdiksi CRS\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.1.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.1.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.1.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Berpartisipasi\nCRS - Entitas/Badan Investasi yang Dikelola secara Profesional, wajib pajak dalam Yurisdiksi yang Tidak Berpartisipasi berdasarkan CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2",
+            "label": "Apakah Anda mengelola uang atau aset orang lain?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.2.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1",
+            "label": "Apakah Anda berlokasi di yurisdiksi Common Reporting Standard (CRS)?",
+            "description": "Buka tautan di bawah untuk yurisdiksi CRS\nhttp://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.3.2.1.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.3.2.1.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan Asing yang Tidak Berpartisipasi /Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Institusi Keuangan\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E, dan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.3.2.1.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Institusi Keuangan yang Tidak Berpartisipasi /Institusi Keuangan Asing yang Didokumentasikan Pemilik\nCRS - Entitas/Badan Investasi yang Dikelola secara Profesional, wajib pajak dalam Yurisdiksi yang Tidak Berpartisipasi di bawah CRS\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.4",
+            "label": "Apakah Anda korporasi yang diperdagangkan secara publik atau afiliasi korporasi yang diperdagangkan secara publik?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.4.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.4.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Pemilik Manfaat Perusahaan Dikecualikan atau Entitas/Badan Asing Non-keuangan yang diperdagangkan secara Publik\nCRS - Entitas/Badan Non-keuangan Aktif - korporasi yang didaftarkan secara publik\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E  / Formulir Sertifikasi Diri Korporasi yang Disederhanakan, dan\nsertifikasi diri CRS \n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5",
+            "label": "Apakah Anda secara umum menjual produk dan layanan kepada nasabah (di atas 50% dari pendapatan)?",
+            "description": "",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Ya",
+                    "nextQId": "3.5.1"
+                },
+                {
+                    "label": "Tidak",
+                    "nextQId": "3.5.2"
+                },
+                {
+                    "label": "Saya tidak tahu",
+                    "nextQId": "4.0999999999999996"
+                }
+            ]
+        },
+        {
+            "id": "3.5.1",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Entitas/Badan Asing Non-keuangan Aktif\nCRS - Entitas/Badan Non-keuangan Aktif - Lainnya\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E / Formulir Sertifikasi Diri Korporasi yang Disederhanakan\nsertifikasi diri CRS\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "3.5.2",
+            "label": "",
+            "description": "Semata-mata berdasarkan informasi yang Anda berikan, Anda adalah: \n\nFATCA - Entitas/Badan Asing Non-keuangan Pasif\nCRS - Entitas/Badan Nonk-euangan Pasif\n\nHarap berikan dokumen berikut ke Manulife:\nFormulir U.S. IRS W-8BEN-E / Formulir Sertifikasi Diri Korporasi yang Disederhanakan\nsertifikasi diri CRS\nsertifikasi diri CRS dan formulir U.S. IRS W9/W8 (jika ada) dari masing-masing pihak pengendali dari entitas ini\n\nBuka tautan di bawah untuk formulir U.S. IRS: \nhttps://www.irs.gov/forms-instructions",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "4"
+                },
+                {
+                    "label": "Cetak",
+                    "nextQId": ""
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "label": "",
+            "description": "Terima kasih telah menggunakan Manulife Declaration e-Assistant. \n\nJika Anda memiliki pertanyaan apa pun mengenai status pajak, konsultasikan ke penasihat profesional.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "0"
+                }
+            ]
+        },
+        {
+            "id": "4.0999999999999996",
+            "label": "",
+            "description": "Terima kasih telah menggunakan Manulife Declaration e-Assistant. \n\nTampaknya situasi Anda mungkin rumit. Silakan konsultasikan ke penasihat pajak profesional untuk membantu Anda melengkapi deklarasi.",
+            "showPreviousButton": false,
+            "answers": [
+                {
+                    "label": "Selesai",
+                    "nextQId": "0"
+                }
+            ]
+        }
+    ],
     "zh_HK": [
         {
             "id": "0",
